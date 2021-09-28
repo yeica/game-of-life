@@ -31,3 +31,22 @@ td {
     border: 1px solid var(--cell-color);
     padding: 10px;
 }
+
+.action-buttons {
+    text-align: center;
+
+}
+
+.action-buttons button {
+    color: white;
+    font-size: 1rem;
+    background-color: unset;
+    padding: .5rem;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+
+.action-buttons button:hover {
+    background-color: var(--cell-color);
+}

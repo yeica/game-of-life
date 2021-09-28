@@ -1,15 +1,17 @@
+// Draw grid 40*60
+
 let table = document.getElementById('grid-table');
-for (let i = 0; i <= 40; i++) {
+for (let row = 0; row <= 40; row++) {
 
-    table.innerHTML += `<tr id="${i}"></tr>`;
+    table.innerHTML += `<tr id="${row}"></tr>`;
 
-    for (let e = 0; e <= 60; e++) {
-        let row = document.getElementById(i.toString());
+    for (let column = 0; column <= 60; column++) {
+        let rowElement = document.getElementById(row.toString());
 
-        row.innerHTML += 
+        rowElement.innerHTML += 
         `
             <td
-                id="${i + '.' + e}"
+                id="${row + '.' + column}"
                 class="cell">
             </td>
         `;
