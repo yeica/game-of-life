@@ -1,7 +1,7 @@
 :root {
     --bg-color: #000000;
     --cell-color: #323232;
-    --fill-color: #FFAC41;;
+    --fill-color: #FFAC41;
     --text-color: #FF1E56;
 }
 
@@ -49,4 +49,12 @@ td {
 
 .action-buttons button:hover {
     background-color: var(--cell-color);
+}
+
+.live {
+    background-color: var(--fill-color);
+}
+
+.dead {
+    background-color: unset;
 }
