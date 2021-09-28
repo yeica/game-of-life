@@ -15,6 +15,12 @@ body {
 h1 {
     text-align: center;
     color: var(--text-color);
+    margin-bottom: .5rem;
+}
+
+p {
+    text-align: center;
+    color: var(--fill-color);
 }
 
 .container {
@@ -29,7 +35,7 @@ table {
 
 td {
     border: 1px solid var(--cell-color);
-    padding: 10px;
+    padding: 5px;
 }
 
 .action-buttons {
@@ -39,11 +45,11 @@ td {
 
 .action-buttons button {
     color: white;
-    font-size: 1rem;
+    font-size: 10px;
     background-color: unset;
     padding: .5rem;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border: none;
 }
 
