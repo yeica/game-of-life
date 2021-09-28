@@ -1,0 +1,33 @@
+:root {
+    --bg-color: #000000;
+    --cell-color: #323232;
+    --fill-color: #FFAC41;;
+    --text-color: #FF1E56;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    font-family: -apple-system, BlinkMacSystemFont, monospace;
+}
+
+h1 {
+    text-align: center;
+    color: var(--text-color);
+}
+
+.container {
+    margin: 1rem 10%;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid var(--cell-color);
+    padding: 10px;
+}
